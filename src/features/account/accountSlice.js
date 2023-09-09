@@ -6,6 +6,7 @@ const initialState = {
   loanPurpose: "",
   isLoading: false,
 };
+
 const accountSlice = createSlice({
   name: "account",
   initialState: initialState,
